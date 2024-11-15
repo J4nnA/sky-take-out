@@ -39,5 +39,4 @@ public interface EmployeeMapper {
             "#{createTime}, #{updateTime}, #{createUser}, #{updateUser})")
     void insertEmployee(Employee employee);
 
-
 }
